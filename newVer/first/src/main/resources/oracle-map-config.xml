@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+<!-- Properties파일위치 설정 : 어디서? --> 
+<!-- 	<properties resource="db.properties"></properties> -->
+	
+	<!-- Alias설정 -->
+	<typeAliases>
+		<typeAlias alias="user" type="com.first.biz.user.UserVO"/>
+	</typeAliases>
+	
+<!-- DataSource 설정 : business-layer에 bean등록 -->
+	
+	<!-- Sql Mapper설정 -->
+	<mappers>
+		<mapper resource="mappings/user-mapping.xml"/>
+	</mappers>
+	
+</configuration>

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{ margin: 0 auto; padding: 0; box-sizing: border-box; 
+}
+section{
+	width: 1120px;
+	clear: both;
+	overflow: hidden;
+	background-color: rgb(247, 247, 247);
+}
+/* section 시작 */
+h1{
+	text-align: center;
+	margin-top: 30px
+}
+.topSection{
+	height: 137px;
+	overflow: hidden;
+}
+.topCon{
+	margin-top: 30px;
+	height: 70px;
+}
+.mainSection{
+	width: 700px;
+	float: left;
+}
+.content{
+	height: 250px;
+	margin: 30px 0px 30px 0px;
+	border-radius: 20px;
+	background-color: white;
+}
+.con{
+	width:400px;
+	float: left;
+	height: 250px;
+}
+.pic{
+	width: 250px;
+	float: left;
+	height: 250px;
+}
+
+.asideSection{
+	width: 360px;
+	float: left;
+	margin: 30px 0px 30px 60px;
+}
+.sideCon{
+	border-radius: 20px;
+	height: 200px;
+	margin: 30px 0px 30px 0px;
+	background-color: white;
+}
+#myInfoSection{
+	margin-top: 0px;
+}
